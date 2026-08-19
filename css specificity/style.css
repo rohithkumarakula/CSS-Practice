@@ -1,0 +1,15 @@
+p{
+    color: #a7ff3c !important;
+    font-weight: bold;
+}
+
+div p{
+    color: blue;
+}
+.para {
+    color: pink;
+    
+}
+input[type="text"]{
+    color: red;
+}
