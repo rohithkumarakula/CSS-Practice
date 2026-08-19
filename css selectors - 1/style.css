@@ -1,9 +1,0 @@
-div p {
-    color: rgb(203, 96, 3);
-}
-body > h1{
-    color: blueviolet;
-}
-div ~ p {
-    color: #7a188c;
-}

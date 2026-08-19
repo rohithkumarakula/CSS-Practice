@@ -1,0 +1,57 @@
+
+h1::before{
+    content: 'J';
+    color: #b41010;
+}
+
+h1::after{
+    content: "after";
+    color: blueviolet;
+}
+
+p:hover {
+    color: #14054e;
+} 
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+div:hover{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}
+
+input:focus{
+    outline: 1px solid red ;
+    border: 1px solid red;
+}
+
+input::placeholder{
+    color: rgb(203, 18, 166);
+}
+
+input {
+    color: rgb(180, 225, 18);
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: #b41010;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: line-through;
+    font-size: 50px;
+}
+
+a:active{
+    color: aqua;
+}
