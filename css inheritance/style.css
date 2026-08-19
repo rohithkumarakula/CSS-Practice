@@ -1,0 +1,12 @@
+body {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 50px;
+    letter-spacing: 0px;
+}
+
+h1{
+    letter-spacing: 0px;
+    color: violet;
+}
