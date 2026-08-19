@@ -1,0 +1,14 @@
+p {
+    color: red;
+    font-size: 23px;
+}
+
+p {
+    color: blue !important;
+    font-size: 70px;
+}
+
+p {
+    color: orange;
+    font-size: 10px;
+}
