@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+    
+}
+
+h1{
+    margin: 20px;
+}
+
+div {
+    width: 500px;
+    height: 600px;
+    border: 1px solid red;
+    background-image: url("Background-Beautiful-Nature-Images-HD.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+}
+
+
