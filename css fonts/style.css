@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playwrite+VN:wght@100..400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-top: 10px;   
+}
+
+h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 200px;
+    color: rgb(4, 98, 38);
+}
+
+p{
+    font-family: sans-serif ;
+    color: blueviolet;
+    font-weight: 900;
+
+}
