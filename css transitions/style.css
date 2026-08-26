@@ -1,0 +1,38 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 2s ease-in-out;
+    margin-bottom: 40px;
+}
+
+div:hover{
+    width: 300px;
+    background-color: blue;
+}
+
+p{
+    font-size: 150px;
+    transition: all 2s;
+}
+
+p:hover{
+    background-color: dodgerblue;
+}
