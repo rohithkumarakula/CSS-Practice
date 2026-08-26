@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+div{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 200px;
+    
+    
+}
+
+.translate {
+    background-color: red;
+    transform: translateX(20px);
+    transform: translateY(20px);
+    /*or transform: translate(20px 20px)*/
+}
+.rotate {
+    background-color: blue;
+    transform: rotate(180deg);
+}
+.scale {
+    background-color: violet;
+    transform: scale(2, 2);
+}
+.skew {
+    background-color: green;
+    transform: skew(20deg, 20deg);
+    
+}
