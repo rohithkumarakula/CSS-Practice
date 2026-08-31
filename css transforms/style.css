@@ -32,7 +32,7 @@ div{
 }
 .rotate {
     background-color: blue;
-    transform: rotate(180deg);
+    transform: rotate(90deg);
 }
 .scale {
     background-color: violet;
@@ -40,6 +40,10 @@ div{
 }
 .skew {
     background-color: green;
-    transform: skew(20deg, 20deg);
+    transition: all;
     
+}
+
+.skew:hover {
+    transform:skew(20deg, 20deg) ;
 }
